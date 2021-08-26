@@ -1,0 +1,315 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+    background: #000000;;
+    font-family: 'Optima', Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+    color:white;
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+header .logo {
+    margin-left: 5px;
+    margin-right: 10px;
+    color: #C3794B;
+    font-family: 'Rockwell', Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    font-size: 30px;
+}
+
+header nav a{
+    text-decoration:none;
+    color: rgb(253, 252, 252);
+    margin-left: 20px;
+    font-family: 'Rockwell', Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+}
+
+header nav a:hover{
+    color: rgb(199, 199, 199);
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url("/img/principal.jpg");
+    height: 500px;
+    margin-bottom: 5px;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo{
+    margin-top: 20%;
+    font-size: 50px;
+    font-family: 'Optima', Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+}
+
+.botao{
+    background-color:rgba(0, 0, 0, .50);
+    border:none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color:white;
+    color: black;
+
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+
+.container{
+    margin-left: 30px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 8px;
+}
+
+.subtitulo{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Rockwell', Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    color: #C3794B;
+}
+
+
+/*terror*/
+
+
+header .logo-terror {
+    margin-left: 5px;
+    margin-right: 10px;
+
+}
+
+.filme-principal-terror{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/Tprincipal.jpg");
+
+    height: 500px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal-terror .descricao{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-family: 'Calisto MT', Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+}
+
+.filme-principal-terror .titulo{
+    margin-top: 20%;
+    font-size: 50px;
+    font-family: 'Calisto MT', Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+    color: red;
+}
+
+
+/*ação*/
+header .logo-acao{
+    margin-left: 5px;
+    margin-right: 10px;
+
+}
+
+.filme-principal-acao{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/Acprincipal.jpg");
+
+    height: 500px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal-acao .descricao{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-family: 'Calisto MT', Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+}
+
+.filme-principal-acao .titulo{
+    margin-top: 20%;
+    font-size: 50px;
+    font-family: 'Bookman Old Style', Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+    color: rgb(0, 4, 255);
+}
+
+/*aventura*/
+header .logo-aventura{
+    margin-left: 5px;
+    margin-right: 10px;
+
+}
+
+.filme-principal-aventura{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/Avprincipal.jpg");
+
+    height: 500px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal-aventura .descricao{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-family: 'Calisto MT', Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+}
+
+.filme-principal-aventura .titulo{
+    margin-top: 20%;
+    font-size: 40px;
+    font-family: 'Calisto MT', Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+    color: rgb(238, 255, 0);
+}
+/*comédia*/
+header .logo-comedia{
+    margin-left: 5px;
+    margin-right: 10px;
+
+}
+
+.filme-principal-comedia{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/Cprincipal.jpg");
+
+    height: 500px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal-comedia .descricao{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-family: 'Calisto MT', Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+}
+
+.filme-principal-comedia .titulo{
+    margin-top: 20%;
+    font-size: 40px;
+    font-family: 'Calisto MT', Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+    color: rgba(187, 255, 0, 0.815);
+
+}/*drama*/
+header .logo-drama{
+    margin-left: 5px;
+    margin-right: 10px;
+
+}
+
+.filme-principal-drama{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/Dprincipal.jpg");
+
+    height: 500px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal-drama .descricao{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-family: 'Calisto MT', Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+}
+
+.filme-principal-drama .titulo{
+    margin-top: 20%;
+    font-size: 50px;
+    font-family: 'Calisto MT', Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+    color: rgba(12, 6, 46, 0.795);
+}
+/*romance*/
+header .logo-romace{
+    margin-left: 5px;
+    margin-right: 10px;
+
+}
+
+.filme-principal-romance{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/Rprincipal.jpg");
+
+    height: 500px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal-romance .descricao{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-family: 'Calisto MT', Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+}
+
+.filme-principal-romance .titulo{
+    margin-top: 20%;
+    font-size: 40px;
+    font-family: 'Calisto MT', Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+    color: rgba(212, 0, 255, 0.699);
+}
